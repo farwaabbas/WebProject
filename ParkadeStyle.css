@@ -1,0 +1,40 @@
+ /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+
+
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #DAF7A6;
+        padding: 12px;
+      }
+
+      #pac-input {
+        background-color: #000;
+        font-family: Roboto;
+        color: white; 
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 12px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 700px;
+        margin-top: 12px;
+      }
+
+      #pac-input:focus {
+        border-color: #4d90fe;
+      }
+
+      @media only screen and (max-width: 768px) {
+    /* For mobile phones: the search box will resize according to the screen size */
+      #pac-input{
+        width: 50%;
+
+      }
+    }
